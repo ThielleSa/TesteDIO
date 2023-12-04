@@ -1,0 +1,10 @@
+body {
+    background: -webkit-linear-gradient(left, #94d5f3, #f1a6f5);
+    background: -moz-linear-gradient(left, #94d5f3, #f1a6f5);
+    background: -ms-linear-gradient(left, #94d5f3, #f1a6f5);
+    background: -o-linear-gradient(left, #94d5f3, #f1a6f5);
+    background: linear-gradient(to right, #94d5f3, #f1a6f5);
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
