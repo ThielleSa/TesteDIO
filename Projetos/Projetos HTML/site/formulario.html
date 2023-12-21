@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Site Aleatório</title>
+        <!--Definindo características para a classe row e para label, margin é a margem, width é a largura, 
+        o texto está alinhado a direita, o display senão o width não funciona por causa da tag label e o 
+        padding rigth que serve para refine o espaçamento do lado direito do conteúdo-->
+        <style>
+            .row{ 
+                margin:5px; 
+            }
+            label{
+                width: 100px; 
+                text-align: right;
+                display: inline-block;
+                padding-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <!--As divs recebem a classe row(linha) com sua margem de 5px-->
+            <div class="row">
+                <label>Nome:</label><input type="text"/>
+                <label>Idade:</label><input type="number"/>
+                <label>CPF:</label><input type="number"/>
+            </div>
+            <div class="row">
+                <label>Telefone:</label><input type="tel"/>
+                <label>E-mail:</label><input type="email"/>
+                <label>RG:</label><input type="number"/>
+            </div>
+            <div class="row">
+                <label>Profissão:</label><input type="text"/>
+                <label>Nascimento:</label><input type="date"/>
+            </div>   
+        </fieldset>
+        <fieldset>
+            <legend>Endereço:</legend>
+            <div class="row">
+                <label>Estado:</label><input type="text"/>
+                <label>Cidade:</label><input type="text"/>
+                <label>Bairro:</label><input type="text"/>
+                <label>CEP:</label><input type="number" min="1"/>
+            </div>
+            <div class="row">
+                <label>Rua:</label><input type="text"/>
+                <label>Número:</label><input type="number" min="0"/>
+                <label>Complemento:</label><input type="text"/>
+            </div>
+        </fieldset>
+        <button type="reset">Limpar:</button>
+        <button type="submit">Enviar</button>
+
+    </body>
+</html>
